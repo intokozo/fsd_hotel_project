@@ -1,0 +1,45 @@
+.button-full, .button-flat, .button-noboarding {
+  font-family: $mainBold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.button-full, .button-flat {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 22px;
+}  
+
+.button-full {
+  background: $purple-gradient;
+  color: white;
+  &:active {
+    opacity: 0.5;
+  }
+}  
+
+.button-flat {
+  background: $purple-gradient;
+  padding: 2px;
+  &:active {
+    background: $purple-gradient-opacity;
+  }
+    
+  span {
+    border-radius: 22px;
+    background: #fff;
+    border:none;
+    padding: 8px 18px;
+    display: inline-block;
+    color: $purple;
+  }    
+}    
+  
+.button-noboarding {
+  color: $purple;
+  &:active {
+    color: rgba(31, 32, 65, 0.5);
+  }
+}
+  

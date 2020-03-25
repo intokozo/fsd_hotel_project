@@ -1,0 +1,36 @@
+// Font
+$mainFont                : montserratregular;
+$mainBold                : montserratbold;
+$hFont                   : quicksandbold, open_sansbold;
+
+// Size
+$mainFontColor           : rgba(31,32,65, 0.75);
+$mainFontSize            : 14px;
+$mainFontStyle           : normal;
+$mainFontWeight          : normal;
+$mainLineHeight          : 17px;
+
+$desktopWidth            : 1160px;
+$smDesktopWidth          : 980px;
+$tableWidth              : 768px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+// Main color
+$white                   : #FFFFFF;
+      $dark              : rgb(31,32,65);
+      $dark75            : rgba(31,32,65, 0.75);
+      $dark50            : rgba(31,32,65, 0.5);
+      $dark25            : rgba(31,32,65, 0.25);
+      $dark5             : rgba(31,32,65, 0.05);
+$purple                  : #BC9CFF;
+$green                   : #6FCF97;
+
+// Gradients
+$purple-gradient         : linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+$green-gradient          : linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+$purple-gradient-opacity : linear-gradient(180deg, #bb9cff80 0%, #8ba5f980 100%);
+
+// Radius
+$input-radius            : 4px;
+

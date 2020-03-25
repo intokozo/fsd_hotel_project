@@ -1,0 +1,45 @@
+.dropdown {
+  width: 320;
+  position: relative;
+  .dropdown__title {
+    font-family: $mainBold;
+    width: 320px;
+    margin-bottom: 5px;
+    }    
+  .dropdown__content{
+    display: none;
+    position: absolute;
+    width: 320px;
+    border: 1px solid $dark25;
+    border-radius: $input-radius;
+    margin-top: -1px;
+    z-index: 1;
+    padding-left: 15px;
+    &:hover {
+      display: block;
+      }      
+    }      
+  .dropdown__field {
+    width: 320px;
+    height: 44px;
+    padding: 15px;
+    border: 1px solid $dark25;
+    border-radius: $input-radius;
+    font-family: $mainFont;
+    color: $dark25;
+    cursor: pointer;
+    &:hover, &:focus {
+      border: 1px solid $dark50;
+      color: $dark75;
+      border-radius: $input-radius $input-radius 0 0;
+      ~.dropdown__content {
+        display: block;
+        border-radius: 0 0 $input-radius $input-radius;
+      }        
+    }      
+  }    
+}
+// .btn {
+//     text-align: right;
+//   }
+

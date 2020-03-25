@@ -1,0 +1,5 @@
+mixin button(href, name)
+  //- attributes == {class: "button-full"\"button-flat"\"button-noboarding"}
+  a.button(class!=attributes.class href=href)
+    span
+      = name

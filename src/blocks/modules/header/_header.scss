@@ -1,0 +1,22 @@
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    padding: 15px 0;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 60%;
+  }
+  &__arrow {
+    &::after {
+      content: "f054";
+      font-family: FontAwesome;
+    }
+  }
+}
