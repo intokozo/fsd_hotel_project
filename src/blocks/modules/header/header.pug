@@ -1,8 +1,12 @@
+include ../../components/button/button
+
 .header__wrapper
   img.header__logo(src="img/svg/logo.svg", alt="")
   .header__nav
     a.header__link(href="#") О нас
-    a.header__link.header__arrow(href="#") Услуги
+    a.header__link.header__link-arrow(href="#") Услуги
     a.header__link(href="#") Вакансии
     a.header__link(href="#") Новости
-    a.header__link.header__arrow(href="#") Соглашения
+    a.header__link.header__link-arrow(href="#") Соглашения
+    +button('#', 'войти')(class="button-flat")
+    +button('#', 'зарегистрироваться')(class="button-full")

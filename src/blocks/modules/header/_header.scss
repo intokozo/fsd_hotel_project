@@ -11,12 +11,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 70%;
   }
-  &__arrow {
-    &::after {
-      content: "f054";
-      font-family: FontAwesome;
+  &__link {
+    color: $dark50;
+    &-arrow {
+      &::after {
+        content: "expand_more";
+        font-family: 'Material Icons';
+        font-size: 24px;
+        line-height: 0;
+        position: relative;  
+        top: 7px;  
+      }
     }
   }
 }
